@@ -15,18 +15,6 @@ Welcome to the **User Management and Role-Based Access Control (RBAC)** document
 
 ---
 
-## 🔐 **Role-Based Access Control (RBAC)**
-RBAC is a method of restricting system access to authorized users based on their roles. In this system, users are assigned specific roles, and each role is granted certain permissions.
-
-### **Roles and Permissions**
-Roles define the access level of a user, and permissions define what actions a role can perform.
-
-- **Admin**: Has full access to the application.
-- **User**: Limited access to certain resources.
-- **Guest**: Access to login and register only.
-
----
-
 ## 🛣️ **Api Endpoints**
 
 | **Method** | **Route**                   | **Controller Method**                 | **Description**                                             | **Access Control**    |
