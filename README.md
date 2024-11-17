@@ -109,6 +109,7 @@ Visit the URL `{domain_name}/request-docs/` in your browser to access an interac
 ---
 
 ## 🗂️ Project Structure
+```
 User-Management-Task/
 │
 ├── app/
@@ -149,7 +150,7 @@ User-Management-Task/
 │       └── DashboardTest.php             # Tests for user and admin role dashboard
 │       └── RoleTest.php                  # Tests for roles functionality
 │       └── UserTest.php                  # Tests for users functionality
-
+```
 ---
 
 
