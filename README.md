@@ -15,49 +15,6 @@ Welcome to the **User Management and Role-Based Access Control (RBAC)** document
 
 ---
 
-## 🛠️ **Setup and Installation**
-To get started with this system, follow these installation steps:
-
-### 1. Clone the repository:
-```bash
-git clone https://github.com/Abdogoda/User-Management-Task.git
-```
-
-### 2. Install dependencies:
-```bash
-cd User-Management-Task
-composer install
-```
-
-### 3. Set up the `.env` file:
-Make sure you have the correct environment variables set in your `.env` file, especially the database connection.
-
-```bash
-cp .env.example .env
-php artisan key:generate
-```
-
-### 4. Migrate the database:
-Run the migration commands to set up the necessary tables for users, roles, and permissions.
-
-```bash
-php artisan migrate
-```
-
-### 5. Seed the database (optional):
-You can seed the database with default roles and permissions.
-
-```bash
-php artisan db:seed
-```
-
-### 6. Serve the application:
-```bash
-php artisan serve
-```
-
----
-
 ## 🔐 **Role-Based Access Control (RBAC)**
 RBAC is a method of restricting system access to authorized users based on their roles. In this system, users are assigned specific roles, and each role is granted certain permissions.
 
@@ -153,6 +110,49 @@ User-Management-Task/
 ```
 ---
 
+## 🛠️ **Setup and Installation**
+To get started with this system, follow these installation steps:
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/Abdogoda/User-Management-Task.git
+```
+
+### 2. Install dependencies:
+```bash
+cd User-Management-Task
+composer install
+```
+
+### 3. Set up the `.env` file:
+Make sure you have the correct environment variables set in your `.env` file, especially the database connection.
+
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+### 4. Migrate the database:
+Run the migration commands to set up the necessary tables for users, roles, and permissions.
+
+```bash
+php artisan migrate
+```
+
+### 5. Seed the database (optional):
+You can seed the database with default roles and permissions.
+
+```bash
+php artisan db:seed
+```
+
+### 6. Serve the application:
+```bash
+php artisan serve
+```
+
+---
+
 
 ## 🔧 Development Tools
 
@@ -162,4 +162,4 @@ User-Management-Task/
 - **Postman**: For testing API endpoints.
 
 ## Contact 📧
-For any questions or feedback, please reach out to me at [your-email@example.com].
+For any questions or feedback, please reach out to me at [abdogoda0a@gmail.com].
